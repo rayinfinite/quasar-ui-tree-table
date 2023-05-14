@@ -1,6 +1,6 @@
 {
   "name": "quasar-ui-tree-table",
-  "version": "0.0.1",
+  "version": "0.1.0-0",
   "author": "ray <rayinfinite@hotmail.com>",
   "description": "Display tree structure data in Table",
   "license": "MIT",
@@ -22,7 +22,7 @@
     "url": "https://github.com/rayinfinite/quasar-ui-tree-table"
   },
   "bugs": "https://github.com/rayinfinite/quasar-ui-tree-table/issues",
-  "homepage": "home",
+  "homepage": "https://github.com/rayinfinite/quasar-ui-tree-table",
   "devDependencies": {
     "autoprefixer": "^10.0.2",
     "cssnano": "^4.1.10",

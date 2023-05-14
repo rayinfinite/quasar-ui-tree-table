@@ -1,7 +1,6 @@
 import QTreeTable from './components/QTreeTable.vue'
 
-
-const version = __UI_VERSION__
+import { version } from '../package.json'
 
 function install (app) {
   app.component(QTreeTable.name, QTreeTable)
