@@ -41,8 +41,14 @@ export default {
       if (index < 0) {
         return;
       }
+      let nextNotDescendant = index + 1;
+      for(; nextNotDescendant < this.treeData.length; nextNotDescendant++) {
+        if(this.treeData[index].__level >= this.treeData[traveler].__level) {
+          break;
+        }
+      }
       if (row.__isExpanded) {
-        this.treeData.splice(index + 1, row.children.length);
+        this.treeData.splice(index + 1, nextNotDescendant - index - 1);
       } else {
         this.treeData.splice(index + 1, 0, ...row.children);
       }
